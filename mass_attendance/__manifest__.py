@@ -17,7 +17,6 @@
         'security/ir.model.access.csv',
         'views/mass_attendance_view.xml',
     ],
-    # only loaded in demonstration mode
     'demo': [
         'demo/demo.xml',
     ],
