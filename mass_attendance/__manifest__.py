@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 {
     'name': "Mass Attendance",
-    'version': '11.0.1.0.0',
     'summary': """
         Mass Attendance for employees""",
     'description': """
@@ -12,8 +11,7 @@
     'author': "Supreeth",
     'website': "http://www.autochip.in",
     'category': 'Attendance',
-    'price': '10.00',
-    'currency': 'EUR',
+    'version': '11.0.1.0.0',
     'depends': ['hr', 'hr_attendance', 'hr_holidays'],
     'data': [
         'security/ir.model.access.csv',
@@ -22,6 +20,4 @@
     'demo': [
         'demo/demo.xml',
     ],
-    'installable': True,
-    'auto_install': False,
 }
